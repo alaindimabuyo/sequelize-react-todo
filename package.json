@@ -10,6 +10,9 @@
     "build": "cd client && npm run build",
     "deploy": "npm run build && node scripts/heroku"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
